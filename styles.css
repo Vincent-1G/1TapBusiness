@@ -97,6 +97,14 @@ nav a.active {
   color: #172b45;
   background: #f9f2e5;
   border: 1px solid #e6dac2;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 .card img {
   height: 190px;
@@ -115,6 +123,16 @@ nav a.active {
 }
 .price {
   font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.price:hover {
+  color: #17365d;
+  background: #f2b544;
+  border: 2px solid #17365d;
+  border-radius: 10;
+  transform: scale(1.05);
 }
 
 .ceos,
