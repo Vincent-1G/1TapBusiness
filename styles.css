@@ -54,8 +54,10 @@ nav a.active {
   flex: 1;
 }
 .hero-image img {
-  height: 300px;
-  object-fit: cover;
+  width: 100%;
+  max-width: 100%x;
+  height: auto;
+  object-fit: contain;
   border: 8px solid #17365d;
 }
 .small-title {
