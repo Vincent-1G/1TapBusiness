@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #172b45;
-  background: #fcf8ef;
+  background: #f9f2e5;
 }
 a {
   color: inherit;
@@ -22,7 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 16px 8%;
-  border-bottom: 1px solid #e6dac2;
+  border-bottom: 10px solid #e6dac2;
 }
 .brand {
   font-size: 22px;
@@ -81,7 +81,7 @@ nav a.active {
   color: #f2b544;
 }
 .white {
-  background: white;
+  background: #f9f2e5;
 }
 .yellow {
   background: #f8e6b4;
@@ -95,7 +95,7 @@ nav a.active {
 }
 .card {
   color: #172b45;
-  background: #fcf8ef;
+  background: #f9f2e5;
   border: 1px solid #e6dac2;
 }
 .card img {
